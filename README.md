@@ -30,6 +30,8 @@ Cookies were invented by Netscape, which wanted to use them for creating a shopp
 - There is a limit to the number of cookies per domain. The number differs per browser, however, the generally used limit is twenty cookies. This is to prevent a single domain from hogging the disk space of the client.
 - There is a limit to the total number of cookies on the client's hard drive. This number also differs per browser, but is usually limited to around three hundred cookies. When this number is exceeded, an older cookie is deleted before a new one is created.
 
+<img src="https://media.giphy.com/media/bAlYQOugzX9sY/giphy.gif"> 
+
 #### Types of Cookies
 
 * Session
@@ -48,6 +50,8 @@ Cookies were invented by Netscape, which wanted to use them for creating a shopp
   - This restriction eliminates the threat of cookie theft via cross-site scripting (XSS)
   - For example, Sinatra sets HttpOnly cookies for session data, that way client side scripts can't access it
   - set with the HttpOnly flag
+
+<img src="https://media.giphy.com/media/R52934IAVt4jK/giphy.gif">
 
 #### Uses
 
@@ -167,6 +171,8 @@ Encryption is the conversion of data into a form, called a ciphertext, that cann
 
 > Encryption could be viewed as a safe deposit box. Whatever you put in there comes back out, as long as you possess the key with which it was locked up in the first place. It's a symmetric operation. Given a key and some input, you get a certain output. Given that output, and the same key, you'll get back the original input. It's a 1:1 mapping.
 
+<img src="https://media.giphy.com/media/10GUbOX16lS15C/giphy.gif?response_id=592239956f571a1522dc5de8">
+
 ### Hashing
 
 Hashing is a one-way, data-destructive process, which takes an arbitrary-length string as input, and outputs a fixed-length string. We use a [hashing algorithm](https://crackstation.net/hashing-security.htm#normalhashing) to avoid storing plain-text passwords in the database. Example:
@@ -181,6 +187,9 @@ We also use a [salt](https://crackstation.net/hashing-security.htm#salt) to rand
 > Going the other way is extraordinarily difficult - you can't really separate the bread back into flour, water, yeast - some of that was lost during the baking process, and you can never tell exactly how much water or flour or yeast was used for a particular loaf, because that information was destroyed by the hashing function (aka the oven).
 
 > Many different variants of inputs will theoretically produce identical loaves (e.g. 2 cups of water and 1 tsbp of yeast produce exactly the same loaf as 2.1 cups of water and 0.9tsbp of yeast), but given one of those loaves, you can't tell exactly what combo of inputs produced it.
+
+<img src="https://media.giphy.com/media/XreQmk7ETCak0/giphy.gif?response_id=592238d7fd61ff68184e30e6">
+
 
 ### Bcrypt
 
