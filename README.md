@@ -17,9 +17,7 @@ The ideals are:
 Cookies are small pieces of data (4kb) sent from a website and stored in a user's computer by the browser. Every time the user loads the website, the browser sends the cookie back to the server in the HTTP Request Header. Cookies are commonly used to track whether a user is logged in or not. They can also be used to record user preferences.
 
 They are sent with each request to web servers to give state for otherwise stateless HTTP transactions. Cookie data is stored as key/value pairs and you can access the data by the name.
-
-Although cookie data is generally sent from websites, it's also possible to use a client side language like JavaScript to set and retrieve cookie data.
-
+  Although cookie data is generally sent from websites, it's also possible to use a client side language like JavaScript to set and retrieve cookie data.
 The first use of cookies (out of the labs) was checking whether visitors to the Netscape website had already visited the site.
 Cookies were invented by Netscape, which wanted to use them for creating a shopping cart for an online shop. Thanks to cookies people were able to keep items their cart, even after disconnecting from the shop.
 
