@@ -12,7 +12,7 @@ The ideals are:
 
  We can use **cookies** to meet all these challenges! If we don't need the user info immediately, we can use **sessions**, which we do store in the DB. They can hold much more data, but they're slower to access when loading the page.
 
-## Cookie Cookie
+## Cookie Cookie Cookie!
 
 Cookies are small pieces of data (4kb) sent from a website and stored in a user's computer by the browser. Every time the user loads the website, the browser sends the cookie back to the server in the HTTP Request Header. Cookies are commonly used to track whether a user is logged in or not. They can also be used to record user preferences.
 
