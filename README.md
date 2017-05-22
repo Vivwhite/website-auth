@@ -1,10 +1,18 @@
-# Website Auth
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Website Auth
 
-## COOKIES + SESSIONS
+## Cookies + Sessions
 
-There are a few ways to ensure that your users experience "continuity" between visits to your website. It's nice if you don't need to log on each time you visit a website. If a site can remember your progress through an article you were reading the user experience jumps exponentially in quality. It's also nice if the browser already knows about some of this information on page load rather than waiting for a DB response. We can use **cookies** for this need! If we don't need the user info immediately, we can use **sessions**, which we do store in the DB. They can hold much more data, but they're slower to access when loading the page.
+There are a few ways to ensure that your users experience "continuity" between visits to your website.   
 
-## Cookies!!!
+The ideals are:
+  - you don't need to log on each time you visit a website.  
+  - a site can remember your progress through an article you were reading. 
+  - the browser already knows about some this information on page load, rather than waiting for a DB response.
+
+
+ We can use **cookies** to meet all these challenges! If we don't need the user info immediately, we can use **sessions**, which we do store in the DB. They can hold much more data, but they're slower to access when loading the page.
+
+## Cookie Cookie
 
 Cookies are small pieces of data (4kb) sent from a website and stored in a user's computer by the browser. Every time the user loads the website, the browser sends the cookie back to the server in the HTTP Request Header. Cookies are commonly used to track whether a user is logged in or not. They can also be used to record user preferences.
 
